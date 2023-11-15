@@ -1,0 +1,40 @@
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 100px ;
+    color:brown;
+    background-color:beige;
+    margin-left: 350px;
+    margin-right: 350px;
+    border: 2px solid brown;
+    border-radius: 20px;
+    height: 400px;
+    margin-top :300px;
+
+}
+.input[type=text]{
+    color:orangered;
+    height: 30px;
+    width: 300px;
+    border: 1px solid brown;
+    border-radius:10px;
+}
+.title{
+    font-size:50px;
+}
+
+.title-2{
+    font-size:50px;
+}
+
+.container2{
+    position: relative;
+    top:-10px
+}
+
+.list{
+    list-style-type:circle;
+    font-weight: bold;
+}
