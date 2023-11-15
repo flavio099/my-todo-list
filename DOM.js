@@ -28,11 +28,6 @@ let list = document.querySelector('.list')
 let element = document.querySelector('.element')
 let li = document.createElement('li')
 let checkbox = document.createElement('input')
-bnt1.addEventListener('click', function(){ let li = document.createElement('li') 
-li.innerHTML =  input.value
-list.appendChild(li)  
-input.value = ""})
-
 bnt2.addEventListener('click', function(){ let li = document.createElement('li')  
 li.innerHTML =  input.value 
 list.removeChild(li) }) 
